@@ -53,7 +53,9 @@ vector<int> multiply(vector<int> const& a, vector<int> const& b) {
 }
 
 int main(int argc, char argv[]) {
-  vector<int> a(4), b(4);
+  int n;
+  cin >> n;
+  vector<int> a(n), b(n);
   for(auto &e : a)
     cin >> e;
   for(auto &e : b)
