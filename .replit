@@ -1,0 +1,8 @@
+compile = ["g++", "fft.cpp", "-o", "fft"]
+run = "./fft"
+entrypoint = "fft.cpp"
+[packager]
+language = "c++"
+
+[nix]
+channel = "stable-22_11"
